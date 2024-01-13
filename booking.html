@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>BOOKING | SINON AUTOSHOW®</title>
+    
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/car-page/styles.css">
+
+  
+
+     <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/car-page/swiper-bundle.min.css">
+
+
+    <!--==================== BOOTSTRAP ICON ====================-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+
+    <script>
+        function redirectToQRCode() {
+            // Specify the URL with the QR code data
+            var qrCodeUrl = 'https://toyyibpay.com/SINON-AUTSHOW';
+        
+            // Open the URL in a new tab or window
+            window.open(qrCodeUrl, '_blank');
+        }
+        </script>
+
+
+</head>
+
+  <!--==================== NAVBAR ====================-->
+
+  <header class="header">
+    <a href="#" class="logo">
+    <img src="img/favicon.png" alt="Logo">
+    SINON AUTOSHOW®
+</a>
+
+    <nav class="navbar">
+        <a href="home.html" style="--i:1" class="active">Home</a>
+        <a href="home.html#featured1" style="--i:2">Car</a>
+        <a href="home.html#featured2" style="--i:3">Motorcycle</a>
+        <a href="booking.html" style="--i:4">Booking</a>
+        <a href="community.html" style="--i:5">Community</a>
+        <a href="contact.html" style="--i:6">Contact</a>
+    </nav>
+
+    <div class="social-media">
+        <a href="login.html" style="--i:1"><i class='fa-solid fa-user fa-fade'></i></a> 
+    </div>
+</header>
+
+
+  <body>
+
+            <!--==================== BOOKING ====================-->
+            <section id="booking-section" class="book-section">
+                <div class="modal-overlay"></div>
+                <div class="book-content">
+                    <div class="book-content-box">
+                    <h2>Book a car</h2>
+                    <p class="error-message">All fields required!</p>
+                    <p class="booking-done">Check your email to confirm an order.</p><br>
+                    <form class="box-form">
+                        <div class="box-form-car-type">
+                        <label> <i class="fa-solid fa-car fa-beat"></i> Select Your Vehicle Type <b>*</b></label>
+                        <select>
+                            <option>Select your vehicle type</option>
+                            <option value="GT-R R34 Series 2 S-Tune (Nissan)">GT-R R34 Series 2 S-Tune (Nissan)</option>
+                            <option value="GTR 35 Nismo Edition (Nissan)">GTR 35 Nismo Edition (Nissan)</option>
+                            <option value="Supra MK4 Paul Walker Edition (Toyota)">Supra MK4 Paul Walker Edition (Toyota)</option>
+                            <option value="Supra MK5 GR-RZ (Toyota)">Supra MK5 GR-RZ (Toyota)</option>
+                            <option value="Rx 7 FD FastFurious Edition (Mazda)">Rx 7 FD FastFurious Edition (Mazda)</option>
+                            <option value="La Ferrari Aperta (Ferrari)">La Ferrari Aperta (Ferrari)</option>
+                            <option value="SF 90 Stradale (Ferrari)">SF 90 Stradale (Ferrari)</option>
+                            <option value="Veneno Roadster (Lamborghini)">Veneno Roadster (Lamborghini)</option>
+                            <option value="Aventador SVJ Roadster (Lamborghini)">Aventador SVJ Roadster (Lamborghini)</option>
+                            <option value="911 GT3 RS (Porsche)">911 GT3 RS (Porsche)</option>
+                            <option value="918 Spyder (Porsche)">918 Spyder (Porsche)</option>
+                            <option value="Model 3 (Tesla)">Model 3 (Tesla)</option>
+                            <option value="Cybertruck (Tesla)">Cybertruck (Tesla)</option>
+                            <option value="Model S (Tesla)">Model S (Tesla)</option>
+                            <option value="CBR 1000RR-R Fireblade SP (Honda)">CBR 1000RR-R Fireblade SP (Honda)</option>
+                            <option value="NC750X (Honda)">NC750X (Honda)</option>
+                            <option value="CB1000R (Honda)">CB1000R (Honda)</option>
+                            <option value="YZF R1 M (Yamaha)">YZF R1 M (Yamaha)</option>
+                            <option value="Tracer 9 GT (Yamaha)">Tracer 9 GT (Yamaha)</option>
+                            <option value="MT 10 (Yamaha)">MT 10 (Yamaha)</option>
+                            <option value="H2R Carbon (Kawasaki)">H2R Carbon (Kawasaki)</option>
+                            <option value="Versys 1000 SE (Kawasaki)">Versys 1000 SE (Kawasaki)</option>
+                            <option value="Z1000R (Kawasaki)">Z1000R (Kawasaki)</option>
+                            <option value="Panigale V4R (Ducati)">Panigale V4R (Ducati)</option>
+                            <option value="Multistrada Enduro 1200 (Ducati)">Multistrada Enduro 1200 (Ducati)</option>
+                            <option value="Monster 1200 (Ducati)">Monster 1200 (Ducati)</option>
+                            <option value="M1000RR (BMW)">M1000RR (BMW)</option>
+                            <option value="S1000R (BMW)">S1000R (BMW)</option>
+                        </select>
+                        </div>
+                        <div class="box-form-car-type">
+                        <label><i class="fa-solid fa-location-dot fa-beat"></i> Pick-up <b>*</b> </label>
+                        <select>
+                            <option>Select pick up location</option>
+                            <option>Gong Badak</option>
+                            <option>Gong Pak Jin</option>
+                            <option>Batu Rakit</option>
+                            <option>Batu Buruk</option>
+                            <option>Bukit Payung</option>
+                        </select>
+                        </div>
+                        <div class="box-form-car-type">
+                        <label><i class="fa-solid fa-location-dot fa-beat"></i> Drop-of <b>*</b></label>
+                        <select>
+                            <option>Select drop off location</option>
+                            <option>Gong Badak</option>
+                            <option>Gong Pak Jin</option>
+                            <option>Batu Rakit</option>
+                            <option>Batu Buruk</option>
+                            <option>Bukit Payung</option>
+                        </select>
+                        </div>
+                        <div class="box-form-car-time">
+                        <label for="picktime"><i class="fa-regular fa-calendar-days fa-beat"></i> Pick-up <b>*</b></label>
+                        <input type="date" id="picktime" />
+                        </div>
+                        <div class="box-form-car-time">
+                        <label for="droptime"><i class="fa-regular fa-calendar-days fa-beat"></i> Drop-of <b>*</b></label>
+                        <input type="date" id="droptime" />
+                        </div>
+                        <button type="button" onclick="redirectToQRCode()">Pay Now</button>
+                    </form>
+                    </div>
+                </div>
+                </div>
+            </section>
+
+        
+       
+
+
+
+             <!--==================== LOGOS ====================-->
+             <section class="logos section">
+              <div class="logos__container container grid">
+                  <div class="logos__content">
+                      <img src="img/logo1.png" alt="" class="logos__img">
+                  </div>
+
+                  <div class="logos__content">
+                      <img src="img/logo2.png" alt="" class="logos__img">
+                  </div>
+
+                  <div class="logos__content">
+                      <img src="img/logo3.png" alt="" class="logos__img">
+                  </div>
+
+                  <div class="logos__content">
+                      <img src="img/logo4.png" alt="" class="logos__img">
+                  </div>
+
+                  <div class="logos__content">
+                      <img src="img/logo5.png" alt="" class="logos__img">
+                  </div>
+
+                  <div class="logos__content">
+                      <img src="img/logo6.png" alt="" class="logos__img">
+                  </div>
+              </div>
+          </section>
+
+
+                          
+              
+                <!--==================== FOOTER ====================-->
+                <footer class="footer section" id="footer">
+                  <div class="shape shape__big"></div>
+                  <div class="shape shape__small"></div>
+
+                  <div class="footer__container container grid">
+                    <div class="footer__content">
+                        <a href="#" class="footer__logo">
+                            <img src="img/favicon.png" alt="Sinon Autoshow Logo">
+                            SINON AUTOSHOW®
+                        </a>
+                          <p class="footer__description">
+                              We offer the best electric cars of <br>
+                              the most recognized brands in <br>
+                              the world.
+                          </p>
+                      </div>
+
+                      <div class="footer__content">
+                          <h3 class="footer__title">
+                              Information
+                          </h3>
+
+                          <ul class="footer__links">
+                              <li>
+                                  <a href="#" class="footer__link">Request a quote</a>
+                              </li>
+                              <li>
+                                  <a href="#" class="footer__link">Find a dealer</a>
+                              </li>
+                              <li>
+                                  <a href="contact.html" class="footer__link">Contact us</a>
+                              </li>
+                              <li>
+                                  <a href="#" class="footer__link">Services</a>
+                              </li>
+                          </ul>
+                      </div>
+
+                      <div class="footer__content">
+                          <h3 class="footer__title">
+                              Follow us
+                          </h3>
+
+                          <ul class="footer__social">
+                              <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                                  <i class="fa-brands fa-facebook-f fa-beat"></i>
+                              </a>
+                              <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                                  <i class="fa-brands fa-instagram fa-beat-fade"></i>
+                              </a>
+                              <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                                  <i class="fa-brands fa-twitter fa-beat-fade"></i>
+                              </a>
+                              <a href="https://tiktok.com/" target="_blank" class="footer__social-link">
+                                  <i class="fa-brands fa-tiktok fa-beat-fade"></i>
+                              </a>
+                          </ul>
+                      </div>
+
+
+                      <div class="footer__content">
+                          <h3 class="footer__title">
+                              Subscribe to our Newsletter
+                          </h3>
+                          <p class="footer__description">
+                              Get the latest news and updates.
+                          </p>
+                          <form class="footer__form">
+                              <input type="email" placeholder="Enter your email address">
+                              <button type="submit" class="footer__subscribe-btn">Subscribe</button>
+                          </form>
+                      </div>
+                  </div>
+
+                  <span class="footer__copy">
+                      Copyright &#169; 2023 - SINON AUTOSHOW® SDN BHD
+                  </span>
+              </footer>
+
+
+              <!--========== SCROLL UP ==========-->
+              <a href="#" class="scrollup" id="scroll-up">
+                <i class="ri-arrow-up-line"></i>
+            </a>
+
+            <!--=============== SCROLL REVEAL ===============-->
+            <script src="assets/js/car-page/scrollreveal.min.js"></script>
+
+            <!--=============== SWIPER JS ===============-->
+            <script src="assets/js/car-page/swiper-bundle.min.js"></script>
+            <script src="assets/js/home-slider/swiper-bundle.min.js"></script>
+
+            <!--=============== MIXITUP JS ===============-->
+            <script src="assets/js/car-page/mixitup.min.js"></script>
+
+            <!--=============== MAIN JS ===============-->
+            <script src="assets/js/car-page/main.js"></script>  
+            <script src="assets/js/home-slider/main.js"></script>  
+            <script src="assets/js/booking-page/main.js"></script> 
+            
+            
+
+
+</body>
+
+
+</html>

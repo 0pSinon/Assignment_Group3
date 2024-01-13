@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN | SINON AUTOSHOW®</title>
+    <link rel="stylesheet" href="assets/css/login.css">
+
+    <!--=============== BOOTSTRAP ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    
+
+    <style>
+      .back-to-homepage-btn {
+          display: inline-block;
+          padding: 10px 20px;
+          margin-top: 20px;
+          background-color: #3498db; /* Change the background color as desired */
+          color: #fff; /* Text color */
+          text-decoration: none;
+          border-radius: 5px;
+          transition: background-color 0.3s;
+      }
+
+      .back-to-homepage-btn:hover {
+          background-color: #2980b9; /* Change the background color on hover as desired */
+      }
+  </style>
+
+
+</head>
+  
+  
+  <body>
+
+      <!--==================== LOGIN ====================-->
+
+        <div class="container">
+          <div class="forms-container">
+            <div class="signin-signup">
+              <form action="" class="sign-in-form">
+                <h2 class="title">Sign In</h2>
+                <div class="input-field">
+                  <i class="fas fa-user"></i>
+                  <input type="text" placeholder="Username" />
+                </div>
+                <div class="input-field">
+                  <i class="fas fa-lock"></i>
+                  <input type="password" placeholder="Password" />
+                </div>
+                <input type="submit" value="Login" class="btn solid" />
+
+                <p class="social-text">Or Sign in with social platforms</p>
+                <div class="social-media">
+                  <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ifkv=ASKXGp1vyM1KM6mgWbU5yyIA9Wmey1jv7S-ry9YZuRzraxIkijCdq-Av5VWczdS4HzomI5U0mGz7Ig&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1324559962%3A1705156960403008&theme=glif" class="social-icon">
+                    <i class="fab fa-google fa-beat"></i>
+                  </a>
+                  <a href="https://appleid.apple.com/sign-in" class="social-icon">
+                    <i class="fab fa-apple fa-beat"></i>
+                  </a>
+                  <a href="https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzA1MTU2OTkzLCJjYWxsc2l0ZV9pZCI6MjY5NTQ4NDUzMDcyMDk1MX0%3D" class="social-icon">
+                    <i class="fab fa-facebook-f fa-beat"></i>
+                  </a>
+                  <a href="https://twitter.com/i/flow/login" class="social-icon">
+                    <i class="fab fa-twitter fa-beat"></i>
+                  </a>
+                </div>
+              </form>
+
+
+              <form action="" class="sign-up-form">
+                <h2 class="title">Sign Up</h2>
+                <div class="input-field">
+                  <i class="fas fa-user"></i>
+                  <input type="text" placeholder="Username" />
+                </div>
+                <div class="input-field">
+                  <i class="fas fa-envelope"></i>
+                  <input type="email" placeholder="Email" />
+                </div>
+                <div class="input-field">
+                  <i class="fas fa-lock"></i>
+                  <input type="password" placeholder="Password" />
+                </div>
+                <input type="submit" value="Sign Up" class="btn solid" />
+
+                <p class="social-text">Or Sign up with social platforms</p>
+                <div class="social-media">
+                  <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ifkv=ASKXGp1vyM1KM6mgWbU5yyIA9Wmey1jv7S-ry9YZuRzraxIkijCdq-Av5VWczdS4HzomI5U0mGz7Ig&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1324559962%3A1705156960403008&theme=glif" class="social-icon">
+                  <i class="fab fa-google fa-beat"></i>
+                  </a>
+                  <a href="https://appleid.apple.com/sign-in" class="social-icon">
+                    <i class="fab fa-apple fa-beat"></i>
+                  </a>
+                  <a href="https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzA1MTU2OTkzLCJjYWxsc2l0ZV9pZCI6MjY5NTQ4NDUzMDcyMDk1MX0%3D" class="social-icon">
+                    <i class="fab fa-facebook-f fa-beat"></i>
+                  </a>
+                  <a href="https://twitter.com/i/flow/login" class="social-icon">
+                    <i class="fab fa-twitter fa-beat"></i>
+                  </a>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="panels-container">
+
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>New here?</h3><br>
+                    <button class="btn transparent" id="sign-up-btn">Sign Up</button><br>
+                    <a href="home.html" class="back-to-homepage-btn">Back to Homepage</a>
+                  </div>
+                <img src="" class="image" alt="">
+            </div>
+
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>One of us?</h3><br>
+                    <button class="btn transparent" id="sign-in-btn">Sign In</button><br>
+                    <a href="home.html" class="back-to-homepage-btn">Back to Homepage</a>
+                  </div>
+                <img src="" class="image" alt="">
+            </div>
+          </div>
+        </div>
+
+
+      </body>
+
+
+
+
+    <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+          <i class="ri-arrow-up-line"></i>
+      </a>
+
+              
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/login.js"></script>
+
+
+</html>
